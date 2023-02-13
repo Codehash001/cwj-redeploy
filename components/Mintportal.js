@@ -190,7 +190,7 @@ useEffect(() => {
                    
                   </p>
                 </div>
-              <img src='/nfts/nft.gif'
+              <img src={`${data[currentImageId].image}`}
               className='w-[280px] h-[280px] rounded-md border border-white '/>
              </div> 
               
