@@ -60,14 +60,7 @@ function Mintportal() {
       setCost (
         isPublicSale? config.publicSalePrice : isPreSale ? config.preSalePrice : 0
       )
-      
-            
-      setCurrentImageId((await getTotalMinted()) + 1)
-      setPrevImageId(currentImageId-1)
-      setNextImageId(currentImageId  + 1)
-      console.log(currentImageId)
-      
-      console.log(totalMinted)
+     
       
       
     }
@@ -190,7 +183,7 @@ useEffect(() => {
                    
                   </p>
                 </div>
-              <img src={`${data[currentImageId].image}`}
+              <img src={`${data[totalMinted].image}`}
               className='w-[280px] h-[280px] rounded-md border border-white '/>
              </div> 
               
