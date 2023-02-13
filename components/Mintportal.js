@@ -1,6 +1,7 @@
 import React, { useRef, useState , useEffect } from "react";
 import { initOnboard } from "../ulits/onboard"
 import { config } from '../dapp.config'
+import data from './imageData.json'
 
 import {
   getTotalMinted,
@@ -23,6 +24,10 @@ function Mintportal() {
   const [isFreeMint, setIsFreeMint] = useState(false)
   const [isPreSale, setIsPreSale] = useState(false)
   const [cost, setCost] = useState(0)
+  
+    const[ currentImageId, setCurrentImageId] = useState(0)
+  const[ prevImageId, setPrevImageId] = useState(0)
+  const[ nextImageId, setNextImageId] = useState(0)
   
 
   const [status, setStatus] = useState(null)
@@ -55,6 +60,14 @@ function Mintportal() {
       setCost (
         isPublicSale? config.publicSalePrice : isPreSale ? config.preSalePrice : 0
       )
+      
+            
+      setCurrentImageId((await getTotalMinted()) + 1)
+      setPrevImageId(currentImageId-1)
+      setNextImageId(currentImageId  + 1)
+      console.log(currentImageId)
+      
+      console.log(totalMinted)
       
       
     }
