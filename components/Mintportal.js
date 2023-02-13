@@ -5,6 +5,7 @@ import data from './imageData.json'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
