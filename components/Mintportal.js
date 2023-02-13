@@ -190,34 +190,12 @@ useEffect(() => {
                    
                   </p>
                 </div>
-               <Swiper
-        slidesPerView={1}
-        spaceBetween={30}
-        loop={false}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        modules={[Autoplay]}
-        className="mySwiper"
-      >
-      	   <SwiperSlide>
-              <img src={`${data[totalMinted -1].image}`}
-              className='w-[280px] h-auto rounded-md border border-white '/>
-           </SwiperSlide>
-           
-           <SwiperSlide>
+
               <img src={`${data[totalMinted].image}`}
               className='w-[280px] h-auto rounded-md border border-white '/>
-           </SwiperSlide>
-           
-           <SwiperSlide>
+
               <img src={`${data[totalMinted + 1].image}`}
               className='w-[280px] h-auto rounded-md border border-white '/>
-           </SwiperSlide>
-           
-           </Swiper>
              </div> 
               
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
