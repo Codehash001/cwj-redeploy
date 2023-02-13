@@ -193,11 +193,12 @@ useEffect(() => {
 
               <img src={`${data[totalMinted].image}`}
               className='w-[280px] h-auto rounded-md border border-white '/>
-             </div>
-             <div className="font-Kanit mt-[-5px] flex flex-col items-center justify-center bg-gray-400/70 filter backdrop-blur-lg overflow hidden px-4 py-2">
+
+              <div className="font-Kanit z-10 absolute bottom-0 flex flex-col items-center justify-center bg-gray-400/70 filter backdrop-blur-lg  px-4 py-2">
               	<h1 className='font-kanit text-lg text-white mb-4'>You will get</h1>
               	<h1 className='font-kanit text-lg text-brand-01'>#{data[totalMinted].name}</h1>
               </div>
+             </div> 
               
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
                 {/* increment decrement buttons */}
