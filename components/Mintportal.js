@@ -3,6 +3,12 @@ import { initOnboard } from "../ulits/onboard"
 import { config } from '../dapp.config'
 import data from './imageData.json'
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+
 import {
   getTotalMinted,
   getMaxSupply,
@@ -183,8 +189,34 @@ useEffect(() => {
                    
                   </p>
                 </div>
+               <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        loop={false}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay]}
+        className="mySwiper"
+      >
+      	   <SwiperSlide>
+              <img src={`${data[totalMinted -1].image}`}
+              className='w-[280px] h-auto rounded-md border border-white '/>
+           </SwiperSlide>
+           
+           <SwiperSlide>
               <img src={`${data[totalMinted].image}`}
-              className='w-[280px] h-[280px] rounded-md border border-white '/>
+              className='w-[280px] h-auto rounded-md border border-white '/>
+           </SwiperSlide>
+           
+           <SwiperSlide>
+              <img src={`${data[totalMinted + 1].image}`}
+              className='w-[280px] h-auto rounded-md border border-white '/>
+           </SwiperSlide>
+           
+           </Swiper>
              </div> 
               
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
