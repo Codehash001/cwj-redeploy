@@ -194,7 +194,7 @@ useEffect(() => {
               <img src={`${data[totalMinted].image}`}
               className='w-[280px] h-auto rounded-md border border-white '/>
 
-              <div className="font-Kanit z-10 absolute bottom-0 flex flex-col items-center justify-center bg-gray-400/80 filter backdrop-blur-sm  px-4 py-2 w-full">
+              <div className="font-Kanit z-10 absolute bottom-0 flex flex-col items-center justify-center bg-gray-100/10 backdrop-filter backdrop-blur-sm filter  px-4 py-2 w-full">
               	<h1 className='font-kanit text-lg text-gray-700 mb-1 font-md'>You will get</h1>
               	<h1 className='font-kanit text-2xl text-black font-semibold'>{data[totalMinted].name}</h1>
               </div>
