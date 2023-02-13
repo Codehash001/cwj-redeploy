@@ -1,0 +1,60 @@
+[
+    {
+        "id":1,
+        "delay":100,
+        "title":"What is Cafe ParadiseBean?",
+        "description":"We are a team of friends who put together this exhilarating project with the hopes of improving everyone's daily journey in life. And we enjoy that first cup of wake up!"
+    },
+    {
+        "id":2,
+        "delay":150,
+        "title":"What is the mission of Cafe ParadiseBean?",
+        "description":"To simply bring a feeling of morning motivation with a cup of coffee to the world. Nothing can bring a better feeling of greeting the world's challenges than having a cup of Joe with Jesus! The Cafe will be an amazing part of technology in the future."
+    },
+    {
+        "id":3,
+        "delay":200,
+        "title":"Are you spreading the word of the Bible?",
+        "description":"No, we are promoting positive inspiration and encouraging personal motivation in everyone, no matter your faith or beliefs. We strongly believe that good and productive mental health can help many of us during these overwhelming times. However, if you individually feel that your own faith can guide you and give you strength, we support this with no judgment."
+    },
+    {
+        "id":4,
+        "delay":250,
+        "title":"How many NFTs did you make?",
+        "description":"We've made about 300, and we're planning to produce more based on the feedback and requests that we receive. There are 20 trait categories in the NFT collection, and they are on the Ethereum blockchain."
+    },
+    {
+        "id":5,
+        "delay":300,
+        "title":"What are the launching plans?",
+        "description":"Free minting will begin 2/12 | Presale - 2/15 | Public sale - 2/18 | Public auction - 3/8"
+    },
+
+    {
+        "id":6,
+        "delay":350,
+        "title":"How much will the NFTs be?",
+        "description":"Presale event- 0.08 eth/weth | Public sale event - 0.095 eth/weth | Public auction event - starting at 0.25"
+    },
+
+    {
+        "id":7,
+        "delay":400,
+        "title":"How many can I purchase during minting?",
+        "description":"Presale event - the limit is 3 per wallet | Public sale event - no limit per person | Public auction event - the limit is 2 per wallet"
+    },
+
+    {
+        "id":8,
+        "delay":450,
+        "title":"What is the rarity of CoffeeWithJesusNFT?",
+        "description":"Our collection has a total of 20 traits, varying from common to very rare tokens. Our ALMIGHTY PARADISE NFTs will have high rarity traits."
+    },
+    {
+        "id":9,
+        "delay":500,
+        "title":"How do I know these are real CoffeeWithJesus pieces?",
+        "description":"Our Cafe pieces are only available on our website, CoffeeWithJesusNFT.com, and each one has a smart contract. All platforms and channels will have the same linkage. We are not responsible for any deceitful or scamming resources and we do not support any such activity. We cannot perform these immoral tasks, after all, we ARE CoffeeWithJesus!!"
+    }
+    
+]
