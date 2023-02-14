@@ -178,7 +178,7 @@ useEffect(() => {
             </h1>
             <h2 className='text-xl font-medium mt-1 mb-2'>{walletAddress
                 ? walletAddress.slice(0, 8) + '...' + walletAddress.slice(-4)
-                : 'Not connected'}
+                : 'No wallet connected'}
             </h2>
             <div className='flex md:flex-row flex-col items-center justify-between md:p-4'>
             
@@ -273,7 +273,7 @@ useEffect(() => {
               {status && (
               <div
                 className={`border ${
-                  status.success ? 'border-green-500 text-white' : 'border-red-600 text-white'
+                  status.success ? 'border-green-500' : 'border-red-600'
                 } rounded-md text-start h-full px-4 py-4 w-full mx-auto my-8 md:my-5"`}
               >
                 <p className="flex flex-col space-y-2 text-sm md:text-base break-words ...">
