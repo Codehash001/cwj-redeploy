@@ -174,7 +174,7 @@ useEffect(() => {
     <div id='mint' className='flex flex-col items-center jusitify-center font-Kanit md:px-0 px-2 py-6 md:my-16' data-aos="fade">
         <div className='md:w-auto w-full py-6 md:px-6 rounded-md border border-gray-700 flex flex-col items-center'>
             <h1 className='font-Archivo md:text-5xl text-3xl text-center bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>
-              {isPublicSale ? "Public Sale" : isPreSale? 'Whitelisted Pre-Sale': isFreeMint? 'Free GiveAway' : 'Will be Live soon!'}
+              {paused? 'Will be Live soon!' : 'Pre-Sale is Live!'}
             </h1>
             <h2 className='text-xl font-medium mt-1 mb-2'>{walletAddress
                 ? walletAddress.slice(0, 8) + '...' + walletAddress.slice(-4)
@@ -191,13 +191,13 @@ useEffect(() => {
                   </p>
                 </div>
 
-              <img src={`${data[totalMinted].image}`}
+              <img src='/nfts/nft.gif'
               className='w-[280px] h-auto rounded-md border border-white '/>
 
-              <div className="font-Kanit z-10 absolute bottom-0 flex flex-col items-center justify-center bg-gray-800/10 backdrop-filter backdrop-blur-sm filter  px-4 py-2 w-full">
+             {/* <div className="font-Kanit z-10 absolute bottom-0 flex flex-col items-center justify-center bg-gray-800/10 backdrop-filter backdrop-blur-sm filter  px-4 py-2 w-full">
               	<h1 className='font-kanit text-lg text-gray-200 mb-1 font-md'>You will get</h1>
               	<h1 className='font-kanit text-2xl text-white font-semibold'>{data[totalMinted].name}</h1>
-              </div>
+              </div> */}
              </div> 
               
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
