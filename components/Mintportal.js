@@ -202,7 +202,7 @@ useEffect(() => {
               
               <div className='w-[280px] mx-4 flex flex-col items-center justify-center'>
                 {/* increment decrement buttons */}
-                <div className="font-Kanit flex items-center justify-evenly w-full md:mt-0 mt-4">
+                {/*<div className="font-Kanit flex items-center justify-evenly w-full md:mt-0 mt-4">
                   <button
                     className="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center text-black hover:shadow-lg bg-brand-01 font-bold rounded-full"
                     onClick={decrementMintAmount}
@@ -251,9 +251,9 @@ useEffect(() => {
                   <h1>Total</h1>
                   <h1>{Number.parseFloat((isPublicSale? config.publicSalePrice * mintAmount : isPreSale? config.preSalePrice * mintAmount : 0).toFixed(4))} {' '} ETH</h1>
                   <h1>+ GAS</h1>
-                </div>
+                </div> */}
                 {/* connect wallet and mint buttons */}
-                <div className='mt-6'>
+                {/* <div className='mt-6'>
                   {paused || isMinting ?
                   (<button className='px-10 py-3 bg-gray-700 text-black rounded-full opacity-8 cursor-not-allowed'>Paused</button>):
                   walletAddress?
@@ -265,7 +265,12 @@ useEffect(() => {
                   onClick={connectWalletHandler}
                   disabled={paused}>Connect Wallet
                 </button>)}
-                </div>
+                </div> */}
+
+                <a>
+                  <button className="px-10 py-3 bg-blue-300 text-black font-md hover:border rounded-full">Buy on Opensea</button>
+                  <button className="px-10 py-3 bg-yellow-300 text-black font-md hover:border rounded-full mt-4">Buy on Raribble</button>
+                </a>
               </div>
             </div>
             {/* status */}
