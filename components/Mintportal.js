@@ -267,10 +267,13 @@ useEffect(() => {
                 </button>)}
                 </div> */}
 
-                <a>
-                  <button className="px-10 py-3 bg-blue-300 text-black font-md hover:border rounded-full">Buy on Opensea</button>
+                <a target='_blank' rel="noreferrer" href='https://opensea.io/collection/officialcoffeewjesusnft'>
+                  <button className="px-10 py-3 bg-blue-300 text-black font-md hover:border rounded-full mt-4">Buy on Opensea</button>
+                </a>
+                <a target='_blank' rel="noreferrer" href='https://rarible.com/TheOfficialCoffeeWithJesusNFT/'>
                   <button className="px-10 py-3 bg-yellow-300 text-black font-md hover:border rounded-full mt-4">Buy on Raribble</button>
                 </a>
+                
               </div>
             </div>
             {/* status */}
