@@ -174,7 +174,7 @@ useEffect(() => {
     <div id='mint' className='flex flex-col items-center jusitify-center font-Kanit md:px-0 px-2 py-6 md:my-16' data-aos="fade">
         <div className='md:w-auto w-full py-6 md:px-6 rounded-md border border-gray-700 flex flex-col items-center'>
             <h1 className='font-Archivo md:text-5xl text-3xl text-center bg-gradient-to-r from-orange-500 to-red-700 bg-clip-text text-transparent font-semibold'>
-              {paused? 'Will be Live soon!' : 'Pre-Sale is Live!'}
+              {paused? 'Will be Live soon!' : 'Public Sale is Live!'}
             </h1>
             <h2 className='text-xl font-medium mt-1 mb-2'>{walletAddress
                 ? walletAddress.slice(0, 8) + '...' + walletAddress.slice(-4)
