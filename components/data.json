@@ -55,6 +55,12 @@
         "delay":500,
         "title":"How do I know these are real CoffeeWithJesus pieces?",
         "description":"Our Cafe pieces are only available on our website, CoffeeWithJesusNFT.com, and each one has a smart contract. All platforms and channels will have the same linkage. We are not responsible for any deceitful or scamming resources and we do not support any such activity. We cannot perform these immoral tasks, after all, we ARE CoffeeWithJesus!!"
+    },
+    {
+        "id":10,
+        "delay":550,
+        "title":"What is your overall goal of this project?",
+        "description":"We created 300 NFTs with different creative expressions to spread awareness of positive mental health and wellbeing, which affects everyone globally. Depression is a common mental disorder, leading cause of disability worldwide, and affects more women than men. Once we reach 100 sales, we aim to donate 10% of our sales to an organization helping those with mental illness and be part of a united effort to prevent further cases of mental health issues in future generations."
     }
     
 ]
